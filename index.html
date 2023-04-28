@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widght=device-widght, initial-scale=1.0">
+    <title>  Conf Bs As</title>
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <link rel="stylesheet" href="./css/style.css">
+   
+    
+</head>
+
+<body>
+  <!--header-->
+    <header> 
+        <div class="Titulo">
+        <img src="./asset/img/codoacodo.png" alt="Logo Codo a Codo">
+        <h2>Conf Bs As</h1>
+        </div>
+        <nav> 
+            <a class="conferencia" href="#">La Conferencia</a>
+            <a href="#oradores">Los oradores</a>
+            <a href="#lugaryfecha">El lugar y la fecha</a>
+            <a href="#serorador">Conviértete en orador</a>
+            <a class="Tickets" href="./CompraTicket.html">Comprar tickets</a>                  
+        </nav>
+      </header>
+
+<!--Main-->
+<main>
+    <section>
+        <img src="asset/img/ba1.jpg" alt="Foto buenos aires" loading="lazy">
+        <div class="Contenedor-parrafo"> 
+            <h1> Conf Bs As</h1>
+            <p class="primer-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus inventore culpa nostrum ipsum ratione impedit similique. Hic error nobis distinctio laudantium, consequatur quam corrupti consequuntur quaerat necessitatibus, voluptatem id voluptatum.</p>
+            <div class="botones-container">
+                <a class="boton-1" href="#serorador">Quiero ser orador</a>
+                <a class="boton-2" href="./CompraTicket.html">Comprar Tickets</a>
+            </div>
+        </div>
+    </section>
+
+
+
+  <!--Section oradores-->
+    
+ <section id="oradores" class="oradores">
+        <div class="container">
+          <h4>Conoce a los</h4>
+          <h3> ORADORES</h3>
+      
+    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card-orador">
+                <img src="./asset/img/steve.jpg" class="card-img-top" alt="Steve-Jobs" loading="lazy">
+
+                <button type="button-JavaScript" class="btn btn-warning">JavaScript</button> 
+                <button type="button" class="btn btn-info">React</button>
+
+                <div class="card-body">
+                  <h5 class="card-title-nombre">Steve Jobs</h5>
+                  <p class="card-text-orador">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae sit sed aperiam consectetur eum illum architecto obcaecati, aut magni quibusdam suscipit. Dolore, distinctio. Dicta corrupti ducimus aspernatur necessitatibus maiores.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-orador">
+                <img src="./asset/img/bill.jpg" class="card-img-top" alt="Bill-Gates" loading="lazy">
+
+                <button type="button-JavaScript" class="btn btn-warning">JavaScript</button> 
+                <button type="button" class="btn btn-info">React</button>
+
+                <div class="card-body">
+                  <h5 class="card-title-nombre">Bill Gates</h5>
+                  <p class="card-text-orador">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae sit sed aperiam consectetur eum illum architecto obcaecati, aut magni quibusdam suscipit. Dolore, distinctio. Dicta corrupti ducimus aspernatur necessitatibus maiores.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-orador">
+                <img src="./asset/img/ada.jpeg" class="card-img-top" alt="Ada-Lovelace" loading="lazy">
+                <button type="button" class="btn btn-secondary">Negocios</button>
+                <button type="button" class="btn btn-danger">Startups</button>
+                <div class="card-body">
+                  <h5 class="card-title-nombre">Ada Lovelace</h5>
+                  <p class="card-text-orador">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae sit sed aperiam consectetur eum illum architecto obcaecati, aut magni quibusdam suscipit. Dolore, distinctio. Dicta corrupti ducimus aspernatur necessitatibus maiores.</p>
+                </div>
+              </div>
+              
+            </div>
+           </div>
+          </div>
+    </section>
+
+
+
+<!--lugar y fecha-->
+  <section id="lugaryfecha">
+    <div class="container-fluid">
+      <div class="row">
+             <div class="col-6">
+               <img src="./asset/img/honolulu.jpg" alt="honolulu" loading="lazy" class="img-fluid">
+             </div> 
+           <div class="col-6 bg-secondary">
+             <div class="card-body">
+              <h5 class="card-title-lugar">Bs As - Octubre</h5>
+              <p class="card-text">Buenos Aires es la provincia más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las princpiales ciudades estadunidenses. Aunque el nombre de Hnolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
+              <a href="#" class="btn btn-primary">Conocé más</a>
+            </div>
+                 </div>
+    </div>
+  </section>  
+
+
+<!--Ser Orador-->
+<section id="serorador">
+<h4>Convertite en un</h4>
+<h3> ORADOR</h3>
+
+
+          <h5> Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h5>
+
+          <div class="input-group mb-3">
+           <input type="text" class="form-control" placeholder="Nombre" aria-label="Username">
+           <input type="text" class="form-control" placeholder="Apellido" aria-label="Server">
+          </div>
+            <div class="input-group">
+            <textarea class="form-control" aria-label="With textarea" placeholder="Sobre qué quieres hablar?"></textarea>
+          </div>
+                    <h6>Recuerda incluir un título para tu charla</h6>
+
+                    <div class="text-center my-3">
+                      <button class="btn btn-primary btn-lg" style="width: 100%;">Enviar</button>
+                  </div>
+</section>
+
+
+<!--footer-->
+
+
+<footer>
+<nav class="footer"> 
+   <a href="">Preguntas frecuentes</a>
+   <a href="">Contáctanos</a>
+   <a href="">Prensa</a>
+   <a href="">Conferencias</a>
+   <a href="">Términos y condidiones</a>
+   <a href="">Privacidad</a>
+   <a href="">Estudiantes</a>              
+</nav>
+</footer>
+
+</main>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
