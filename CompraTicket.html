@@ -4,10 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Construcción</title>
+    <title>Comprar Ticket</title>
 </head>
-<body>
-<h7>Página en Construcción</h7>
+
+
+
+
+
+  <body>
+ <!--header-->
+    <div class="header2">
+        <header> 
+    
+             <div class="Titulo2">
+                 <h1>Conf Bs As</h1>
+             </div>
+           <nav> 
+                <a class="conferencia" href="./index.html">La Conferencia</a>
+                <a href="#oradores">Los oradores</a>
+                <a href="#lugaryfecha">El lugar y la fecha</a>
+                <a href="#serorador">Conviértete en orador</a>
+                <a class="Tickets" href="./CompraTicket.html">Comprar tickets</a>                  
+            </nav>
+   
+        </header>
+    </div>
+  <main>
+  
+ 
+           
+ <!--Square Section-->       
+
+ <div class="container square-container">
+            <div class="row">
+            <div class="col-md-4 col-xs-4 mr-3">
+                <div class="square-container">
+                <div class="custom-square blue-square">
+                    <h6>Estudiante</h6>
+                    <p>Tiene un descuento</p>
+                    <h6>80%</h6>
+                    <p> *presentar documentación</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-4 mr-3">
+                <div class="square-container">
+                <div class="custom-square green-square">
+                    <h6>Trainee</h6>
+                    <p>Tienen un descuento</p>
+                    <h6>50%</h6>
+                    <p>*presentar documentación</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <div class="square-container">
+                <div class="custom-square brown-square">
+                    <h6>Junior</h6>
+                    <p>Tiene un descuento</p>
+                    <h6>15%</h6>
+                    <p>*presentar documentación</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+
+<!--Seccion de venta-->
+    <div class="venta-valor" >
+        <h>VENTA</h>
+        <p>VALOR DE TICKET $200<p>
+    </div>
+
+<!--seccion formulario--> 
+
+
+<div class="container form">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form action="">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="nombre"  placeholder="Nombre">
+              
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="correo" placeholder="Correo">
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col">
+              <label for="Cantidad">Cantidad</label>
+              <input id= "cantidadEntrada" type="text" class="form-control" placeholder="Cantidad">
+            </div>
+  
+            <div class="col">
+              <label for="Categoría">Categoría</label>
+              <select id= "inputState" class="form-select">
+                <option selected>Estudiante</option>
+                <option value="Junior">Junior</option>
+                <option value="Trainee">Trainee</option>
+              </select>
+            </div>
+          </div>
+  
+          <div class="form-row">
+            <div class= "form-group col">
+              <div id="totalCompra" class="alert alert-primary" role="alert"> Total a Pagar:  $</div>
+           </div>
+
+
+
+           <div class="form-row">
+           <div class="col text-center">
+             <button type="reset" class="button">Borrar</button>
+             <button type="button" id="botonCalcular" onclick="ejecutarFunciones(event)" class="button">Resumen</button>
+           </div>
+         </div>
+          
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+
+<!--footer-->>
+ <footer>
+    <nav class="footer"> 
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Contáctanos</a>
+        <a href="">Prensa</a>
+        <a href="">Conferencias</a>
+        <a href="">Términos y condidiones</a>
+        <a href="">Privacidad</a>
+        <a href="">Estudiantes</a>              
+    </nav>
+ </footer>
+                
+
+ 
+</main>
+
+
+    <script src="js/main.js"></script>
 </body>
 </html>
